@@ -1,6 +1,6 @@
 ## Adit Gautam
 # 1/28/25
-# Chapter 4 Lab 1 Task 1
+# Chapter 4 Lab 1 Task 2
 # Program to find sum of digits
 
 sum = 0                         #Not sure if initialization is required in python

@@ -1,6 +1,6 @@
 ## Adit Gautam
 # 1/28/25
-# Chapter 4 Lab 1 Task 1
+# Chapter 4 Lab 1 Task 4
 # Program to find average of all positive numbers divisible by 3
 
 #COUNTERS INITIALIZED TO 0 - FOR AVERAGE

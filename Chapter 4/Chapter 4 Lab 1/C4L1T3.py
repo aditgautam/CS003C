@@ -1,6 +1,6 @@
 ## Adit Gautam
 # 1/28/25
-# Chapter 4 Lab 1 Task 1
+# Chapter 4 Lab 1 Task 3
 # Program to find data regarding grades
 
 total_sum = 0                                   #Summation of all grades
