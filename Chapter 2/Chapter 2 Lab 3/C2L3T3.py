@@ -13,13 +13,12 @@ def round_dollar(amount) :                                                  #Hel
     else :
         dollars = str_amount                                                #If there is no cents value
         cents = "00"                                                        #So that integer dollar values round properly
-    if cents != "00" :
-        cents = (cents)[:3]                                                 #If cents have a value, find the first 3 digits so we can round
-        cents_value = int(cents) * 0.1                                      #Multiply by .1 so we can use math.ceil()
-        cents_value = ceil(cents_value)
-        cents = str(cents_value).zfill(2)
-    final_result = dollars + '.' + cents                                    #Concatenate the strings and reintroduce decimal
-    return final_result
+    if len(cents) < 2 :                                                     #For example, if there are 1 or 0 digits in cents
+        cents = cents.ljust(2, '0')                                         #Adjusts length to 2. Fills anything mjissing with 0 
+    elif len(cents) > 2 :                                                   #If theres  more than 2, then we go through with rounding
+        cents  = str(ceil(int(cents[:3]) * 0.1)).zfill(2)
+    #IF CENTS IS EXACTLY 2, THEN DO NOT DO ANYTHING
+    return dollars + '.' + cents     
 
 def find_total_cost(car_cost, mperyear, gas_price, mpg, resale, years) :    #Just make it a function to make life easier
     print("Total cost of the car:", car_cost)
