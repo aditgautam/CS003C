@@ -1,2 +1,5 @@
 # CS003C
-Winter 2025 - Mayada Alani
+Fudnamentals of Computer Science (Python)
+CS003C
+PCC Winter 2025
+Mayada Alani
