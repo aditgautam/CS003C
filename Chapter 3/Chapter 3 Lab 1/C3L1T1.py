@@ -1,7 +1,7 @@
 ## Adit Gautam
 # 1/27/25
 # Chapter 3 Lab 1 Task 1
-# A program to calculate a discount based on 
+# A program to calculate a discount based on price
 
 from math import ceil 
 
