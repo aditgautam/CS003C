@@ -33,5 +33,4 @@ def main() :
     print_transformation("Java", swap_middle("Java"))
     print_transformation("123456", swap_middle("123456"))
     print_transformation("Computer", swap_middle("Computer"))
-
 main()
