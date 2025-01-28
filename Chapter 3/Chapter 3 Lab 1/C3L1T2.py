@@ -6,7 +6,7 @@
 response = input("Are you shipping internationally (yes or no)?")
 response = response.lower()                                         #Avoids user error if they type in caps
 
-if response != "yes" :                                              #If no, jump straight t o else
+if response != "yes" :                                              #If no, jump straight to else
     response = input("Are you shipping continental (yes or no)?")
     response = response.lower()
     if response != "yes" :                                          #I COULD HAVE MADE THIS BLOCK A LOT MORE CLEAN
