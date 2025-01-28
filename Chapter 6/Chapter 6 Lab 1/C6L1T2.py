@@ -7,9 +7,9 @@ adding = True                   #This is how we will track our alternation
 user_number = 0                 #Poor man's do while loop
 sum = 0                         #Start the counter
 
-while user_number != "" :
+while user_number != "Q" :
     user_number = input("Enter Values (blank line to quit): ")
-    if user_number == "" :      #If this is a blank then just quit out
+    if user_number == "Q" :      #If this is a blank then just quit out
         break
     if adding : 
         sum += int(user_number) #We need to conver this to an int
