@@ -20,7 +20,7 @@ for i in range(1, 101) :                #Range: Start at 1, go UP TO (dont inclu
 print("Sum of squares between 1 and 100:", sum_squares)
 
 # All powers of 2 from 20 up to 30
-print("Powers of @ from 20 up to 30")
+print("Powers of 2 from 20 up to 30: ", end="")
 for i in range(20, 31) :
-    print(2 ** i)
+    print(2**i, " ", end ="")
 
